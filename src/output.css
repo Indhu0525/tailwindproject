@@ -22,6 +22,8 @@ input[type="checkbox"]:checked ~ .dropdown-content {
   display: none;
 }
 
+
+
 *,
 ::before,
 ::after {

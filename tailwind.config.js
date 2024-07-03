@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./index.html'],
+  darkMode: ['selector', '[data-mode="dark"]'],
   theme: {
     extend: {
       colors: {
@@ -16,6 +17,9 @@ module.exports = {
       },
       
     },
+  },
+  variants: {
+    extend: {},
   },
   plugins: [
     function ({ addUtilities }) {
