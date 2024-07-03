@@ -37,6 +37,9 @@ input[type="checkbox"]:checked ~ .dropdown-content {
 .text-title-xxl2{
   font-size:42px;
 }
+.text-title-xl2{
+  font-size:28px;
+}
 .text-titlep{
   font-size: 22px;
 }
