@@ -42,8 +42,14 @@ input[type="checkbox"]:checked ~ .dropdown-content {
 .text-title-xl2{
   font-size:28px;
 }
+.text-size{
+  font-size:26px;
+}
 .text-titlep{
   font-size: 22px;
+}
+.font-fam{
+  font-family:sans-serif;
 }
 ::before,
 ::after {
