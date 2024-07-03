@@ -14,12 +14,12 @@
 </head>
 
 <body class="bg-gray-800">
-    <div class="h-screen flex sidebar ">
+    <div class="h-screen flex">
         <!-- Sidebar -->
      
-        <div class="w-64 h-screen w-[calc(100%-80%)] space-y-6 overflow-y-scroll   h-full">
+        <div class="h-screen w-[calc(100%-80%)] space-y-6 overflow-y-scroll   h-full">
             <!--sidebar header-->
-            <div class="flex items-center justify-between px-6 py-5 lg;py-6.5 fixed bg-gray-800 z-10">
+            <div class="flex items-center justify-between px-6 py-5 lg;py-6.5 fixed bg-custom-black z-10">
               <div class="">
                   <img src="./images/logo.svg">
               </div>
@@ -483,8 +483,8 @@ viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 </div>
   </div>
   <!--sidebar footer-->
-  <div>
-<div class=" rounded-sm bg-boxcolor max-w-60 mb-10 px-4 text-center py-6">
+  <div class="bg-midnightBlue">
+<div class=" rounded-sm  max-w-60 mb-10 px-4 mx-auto text-center py-6">
   <h3 class="font-semibold mb-2 text-white ">TailAdmin Pro</h3>
   <p class="mb-4 px-0 text-xs text-gray-400">Get All Dashboards and 300+ UI <span class="text-center">Elements</span></p>
   <span class="rounded bg-indigo-500 px-2 py-1 text-sm font-medium text-white">Purchase Now</span>
@@ -493,10 +493,11 @@ viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
         </div>
       
         <!--content area-->
-        <div class="flex-1 flex w-[calc(100%-20%)] bg-gray-100 flex-col">
+        <div class="w-[calc(100%-20%)] overflow-y-auto overflow-x-hidden relative flex flex-1 flex-col ">
           <!-- Header -->
-          <header class="bg-white shadow-sm">
-              <div class="container mx-auto px-4 flex items-center justify-between fixed z-10 bg-white">
+           <div class=""></div>
+          <header class="bg-white shadow-sm sticky top-0 z-10">
+              <div class="container mx-auto px-4 flex items-center justify-between  bg-white">
                 <!--search bar-->
                   <div class="flex  items-center">
                       <div class="relative text-gray-600">
@@ -573,11 +574,11 @@ viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               </div>
           </header>
           <!--content area-->
-       <main class="bg-gray-100 overflow-y-auto overflow-x-hidden">
+       <main class="bg-gray-100">
         <!--content top-->
         <div class="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10 ">
           <!--pricingtable -->
-          <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center mt-20 sm:justify-between">
+          <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center  sm:justify-between">
             <h2 class="indent-px font-bold text-black dark:text-white ">
             
               Pricing Table

@@ -11,7 +11,8 @@ module.exports = {
         'primary':'rgb(60 80 224)',
         'boxcolor':'rgb(36 48 63 )',
         'fill': '#64748B',
-        
+       'midnightBlue':'rgb(17 39 66)',
+       
       },
       
     },
