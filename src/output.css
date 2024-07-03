@@ -7,6 +7,21 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+.relative:focus-within .focus-within\:block {
+    display: block;
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+}
+
 *,
 ::before,
 ::after {
@@ -19,7 +34,12 @@
   border-color: #e5e7eb;
   /* 2 */
 }
-
+.text-title-xxl2{
+  font-size:42px;
+}
+.text-titlep{
+  font-size: 22px;
+}
 ::before,
 ::after {
   --tw-content: '';
