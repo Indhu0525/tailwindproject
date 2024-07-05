@@ -18,9 +18,7 @@ module.exports = {
       
     },
   },
-  variants: {
-    extend: {},
-  },
+  
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {

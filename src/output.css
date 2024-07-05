@@ -49,8 +49,9 @@ input[type="checkbox"]:checked ~ .dropdown-content {
   font-size: 22px;
 }
 .font-fam{
-  font-family:sans-serif;
+  font-family: Satoshi, sans-serif;
 }
+
 ::before,
 ::after {
   --tw-content: '';
@@ -251,6 +252,9 @@ textarea {
   padding: 0;
   /* 3 */
 }
+.fontsans{
+  font-family: sans-serif;
+}.fs{font-size: 13px;}
 
 /*
 Remove the inheritance of text transform in Edge and Firefox.
@@ -260,6 +264,15 @@ button,
 select {
   text-transform: none;
 }
+.height{
+  height:300px;
+}
+.dropsize{
+  font-size: 13px;
+}
+
+
+/* Hide menu by default */
 
 /*
 1. Correct the inability to style clickable types in iOS and Safari.
@@ -269,7 +282,8 @@ select {
 button,
 input:where([type='button']),
 input:where([type='reset']),
-input:where([type='submit']) {
+input:where([type='submit'])
+{
   -webkit-appearance: button;
   /* 1 */
   background-color: transparent;
